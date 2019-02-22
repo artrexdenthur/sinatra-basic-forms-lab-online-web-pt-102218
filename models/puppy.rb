@@ -2,10 +2,10 @@ class Puppy
   
   attr_accessor :name, :breed, :age
   
-  def initialize(name, breed, age)
-    @name = name
-    @breed = breed
-    @age = age
+  def initialize(param_hash)
+    @name = param_hash[:name]
+    @breed = param_hash[:breed]
+    @age = param_hash[:age]
   end
   
 end
