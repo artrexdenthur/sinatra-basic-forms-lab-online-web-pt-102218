@@ -12,7 +12,7 @@ class App < Sinatra::Base
   end
   
   post '/puppy' do
-    @param_hash = params
+    @name, @age, @breed = params[:name], params[:age], params[:breed]
   end
 
 end
