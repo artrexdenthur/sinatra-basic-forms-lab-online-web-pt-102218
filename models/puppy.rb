@@ -1,6 +1,6 @@
 class Puppy
   
-  attr_accessor :name, :breed, :months_old
+  attr_accessor :name, :breed, :age
   
   def initialize(param_hash)
     @name = param_hash[:name]
